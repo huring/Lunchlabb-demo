@@ -6,13 +6,48 @@ Build a complete OKR dashboard for Driftwind using:
 
 - product definition
 - design specs
-- AI Evolution Engine
+- backlog-driven implementation
+
+---
+
+## How we build (important)
+
+We do NOT build everything at once.
+
+We:
+1. define the product
+2. define design rules
+3. break work into small slices (cards)
+4. implement step-by-step
+
+---
+
+## Backlog structure
+
+All work is defined in:
+
+/docs/backlog/
+
+### OKR Dashboard
+
+- CARD-001 – Dashboard layout
+- CARD-002 – Progress calculation
+- CARD-003 – Key result editing
+- CARD-004 – Visual polish
+
+### AI Evolution Engine
+
+- CARD-001 – Classify Key Results
+- CARD-002 – Detect KR state
+- CARD-003 – Generate suggestions
+- CARD-004 – Suggestion UI
+- CARD-005 – Interaction
 
 ---
 
 ## What to build
 
-The app should include:
+The final result should include:
 
 ### 1. Dashboard
 
@@ -59,7 +94,7 @@ Suggestions should:
 
 Follow:
 
-- docs/design-specs.md
+docs/design-specs.md
 
 ---
 
