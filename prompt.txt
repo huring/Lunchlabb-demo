@@ -1,0 +1,113 @@
+You are implementing a complete OKR dashboard demo.
+
+Follow the project structure and rules.
+
+---
+
+## Read first:
+
+- docs/product.md
+- docs/design-specs.md
+- docs/backlog/okr-dashboard/README.md
+- docs/backlog/okr-dashboard/CARD-001-dashboard-layout.md
+- docs/backlog/okr-dashboard/CARD-002-progress-calculation.md
+- docs/backlog/okr-dashboard/CARD-003-kr-editing.md
+- docs/backlog/okr-dashboard/CARD-004-visual-polish.md
+- docs/backlog/ai-insights/README.md
+- docs/backlog/ai-insights/CARD-001-ai-insight-logic.md
+- docs/backlog/ai-insights/CARD-002-ai-insight-ui.md
+- docs/backlog/ai-insights/CARD-003-ai-insight-polish.md
+
+---
+
+## Goal
+
+Build a complete, working OKR dashboard with:
+
+1. Visual dashboard
+2. Progress calculation
+3. Editable key results
+4. AI insight panel
+
+Use:
+- React
+- Tailwind
+- mock data only (no backend)
+
+---
+
+## Implementation plan (execute in order)
+
+### Step 1 — Dashboard layout
+- implement objective section
+- implement key result cards
+- follow design-specs.md strictly
+
+---
+
+### Step 2 — Progress logic
+- calculate KR progress (current / target)
+- calculate objective progress (average)
+- update UI
+
+---
+
+### Step 3 — Editing
+- allow updating KR current value
+- update progress instantly
+- keep interaction simple
+
+---
+
+### Step 4 — AI insight logic
+- generate:
+  - summary sentence
+  - 2–3 bullet points
+- detect:
+  - low progress (<40%)
+  - strong progress (>70%)
+
+---
+
+### Step 5 — Insight UI
+- add insight card to dashboard
+- display summary + bullets
+- visually distinct
+
+---
+
+### Step 6 — Visual polish
+- improve spacing and hierarchy
+- add color-coded status
+- refine typography
+- ensure premium feel
+
+---
+
+## Requirements
+
+- follow design-specs.md
+- keep UI clean and modern
+- no unnecessary complexity
+- no backend
+- no extra features beyond scope
+- keep code readable and structured
+
+---
+
+## Output
+
+- working UI components
+- clean structure
+- clear separation of logic and UI
+
+---
+
+## Important
+
+- implement everything in one pass
+- do not stop between steps
+- make reasonable decisions when needed
+- prioritize clarity and visual quality
+
+Start now.
