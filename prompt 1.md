@@ -1,3 +1,5 @@
+## Build the system
+
 Build the complete OKR dashboard using:
 - docs/product.md
 - docs/design-specs.md
